@@ -4,6 +4,8 @@
 
 本倉庫只包含**處理腳本**，不包含任何遊戲資源、漢化補丁或字庫文件——你需要自備一份已安裝簡體漢化的遊戲（詳見下方「前提條件」）。
 
+> **來源說明**：本工具用於在 [Kanadeforever/BloodStone_CN](https://github.com/Kanadeforever/BloodStone_CN) 簡體漢化補丁的基礎上進行繁體化。簡體譯文、漢化技術實現與字庫格式研究均歸該項目及其作者所有，本倉庫僅提供簡→繁的轉換腳本。使用前請先安裝原版簡體漢化補丁，並遵守原項目的「免費分享、禁止商用、轉載保留來源」聲明。
+
 ## 背景
 
 簡體漢化組的中文版由兩部分組成：
@@ -88,6 +90,12 @@ python tools/blank_page2.py scripts/BSCNContents/fonts/ui_font_cnx.bpr
 - 本倉庫**不含**任何遊戲資源、漢化補丁、字庫或版權素材，僅提供針對用戶自有遊戲文件的格式轉換腳本。
 - 請自備正版遊戲與簡體漢化補丁；對漢化組作品的版權歸原作者所有。
 - 修改遊戲文件存在風險，使用腳本前請自行備份，後果自負。
+
+## 致謝
+
+- [Kanadeforever/BloodStone_CN](https://github.com/Kanadeforever/BloodStone_CN)：簡體漢化補丁（文本譯文、ASI 插件、字庫格式基礎），本項目的上游。
+- [Ultimate-ASI-Loader](https://github.com/ThirteenAG/Ultimate-ASI-Loader)、[DXVK](https://github.com/doitsujin/DXVK)：原補丁依賴的運行時組件。
+- [OpenCC](https://github.com/BYVoid/OpenCC)：簡轉繁轉換引擎。
 
 ## 授權
 
